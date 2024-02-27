@@ -18,13 +18,6 @@
 --gradient-radial: radial-gradient(#8b56feff, #f6ae2dff, #372264ff, #cc1d88ff, #00bbf9ff);   
 }
 
-#demotext {
-    color: #FFFFFF;
-    background: #333333;
-    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
-    color: #FFFFFF;
-    background: transparent;
-}
 
 body {
     font-family: "Anta", sans-serif;
@@ -39,16 +32,29 @@ body {
 
 }
 
-.header, .footer {
+.header {
     background-color: transparent;
     /* color: var(--hunyadi-yellow); */
-    height: 100px;
+    height: 300px;
     display: grid;
     place-content: center;
-
-
+    gap: 15px
 }
 
 .main {
     height: 1000px;
 }
+
+#demotext {
+    color: #FFFFFF;
+    background: #333333;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    color: #FFFFFF;
+    background: transparent;
+    display: grid;
+    place-content: center;
+}
+
+
+
+
