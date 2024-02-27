@@ -34,12 +34,19 @@ body {
 
 .header {
     background-color: transparent;
-    /* color: var(--hunyadi-yellow); */
-    height: 300px;
-    display: grid;
-    place-content: center;
-    gap: 15px
+    gap: 2rem;
 }
+
+.nav-link {
+    color: var(--hunyadi-yellow);
+    font-size: 2rem;
+}
+.nav-link:hover {
+    color: var(
+        --red-violet
+    );
+}
+
 
 .main {
     height: 1000px;
@@ -53,6 +60,13 @@ body {
     background: transparent;
     display: grid;
     place-content: center;
+    transform: perspective(1500px) rotateY(35deg) skew(5deg, 5deg);
+    transition: 0.8s;
+}
+
+
+#demotext:hover {
+    transform: perspective(3000px) rotateY(-35deg) skew(-5deg, -5deg);
 }
 
 
