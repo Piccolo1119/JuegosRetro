@@ -91,46 +91,10 @@ body {
   background-attachment: fixed;
 }
 
-/* --------------FOOTER-------------- */
-.footer {
-  background-color: transparent;
-  color: var(--hunyadi-yellow);
-  font-size: 1rem;
+main {
+  color: #f6ae2dff;
 }
 
-.main {
-  height: 1200px;
-}
-
-.icons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  gap: 1.7rem;
-  align-items: center;
-}
-
-.icons button {
-  opacity: 0.8;
-  font-size: 3rem;
-  width: 4rem;
-  height: 4rem;
-  border-radius: 20%;
-  display: grid;
-  place-content: center;
-  outline: 0.1rem solid;
+form {
   background: transparent;
-  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
-    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
-    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
-  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
-    #ff2d95 0px 0px 20px, #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px,
-    #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px;
-  transition: 0.2s ease-in;
 }
-
-button:hover {
-  scale: 1.1;
-  opacity: 1;
-}
-/* --------------FOOTER-------------- */
