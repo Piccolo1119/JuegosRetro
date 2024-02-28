@@ -48,6 +48,7 @@ body {
 }
 
 
+
 .main {
     height: 1000px;
 }
@@ -173,8 +174,4 @@ body {
         border-left: 3px  var(--red-violet) solid;
     }
 }
-
-
-
-
 
