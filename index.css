@@ -104,20 +104,25 @@ body {
 }
 
 .lineas:hover .superior {
-    animation: superior 1s linear forwards;
+    animation: superior 1s linear both;
 }
+
 
 .lineas:hover .derecha {
-    animation: derecha 1s linear both;
+    animation: derecha 1s linear both ;
 }
+
 
 .lineas:hover .inferior {
-    animation: inferior 1s linear both;
+    animation: inferior 1s linear both ;
 }
 
+
+
 .lineas:hover .izquierda {
-    animation: izquierda 1s linear both;
+    animation: izquierda 1s linear both ;
 }
+
 
 
 
@@ -141,8 +146,10 @@ body {
     100% {
         transform: scaleX(1);
         border-top: 3px  var(--red-violet) solid;
+    
     }
 }
+
 
 @keyframes derecha {
     0% {
@@ -154,6 +161,11 @@ body {
         border-right: 3px  var(--red-violet) solid;
     }
 }
+
+
+
+
+
 @keyframes inferior {
     0% {
         transform: scaleX(0);
@@ -164,6 +176,10 @@ body {
         border-bottom: 3px  var(--red-violet) solid;
     }
 }
+
+
+
+
 @keyframes izquierda {
     0% {
         transform: scaleY(0);
@@ -174,4 +190,5 @@ body {
         border-left: 3px  var(--red-violet) solid;
     }
 }
+
 
