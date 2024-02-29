@@ -107,7 +107,7 @@ body {
   flex-wrap: wrap;
   justify-content: flex-end;
   gap: 1.7rem;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .icons button {
@@ -133,4 +133,12 @@ button:hover {
   scale: 1.1;
   opacity: 1;
 }
-/* --------------FOOTER-------------- */
+
+@media (width <= 992px) {
+  .icons {
+    justify-content: center;
+  }
+  .footer {
+    text-align: center;
+  }
+} /* --------------FOOTER-------------- */

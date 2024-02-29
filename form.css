@@ -1,100 +1,27 @@
-@import url("https://fonts.googleapis.com/css2?family=Anta&family=Roboto:wght@100&display=swap");
-
-:root {
-  /* SCSS RGB */
-  --medium-slate-blue: rgba(139, 86, 254, 1);
-  --hunyadi-yellow: rgba(246, 174, 45, 1);
-  --russian-violet: rgba(55, 34, 100, 1);
-  --red-violet: rgba(204, 29, 136, 1);
-  --deep-sky-blue: rgba(0, 187, 249, 1);
-
-  /* SCSS Gradient  */
-  --gradient-top: linear-gradient(
-    0deg,
-    #8b56feff,
-    #f6ae2dff,
-    #372264ff,
-    #cc1d88ff,
-    #00bbf9ff
-  );
-  --gradient-right: linear-gradient(
-    90deg,
-    #8b56feff,
-    #f6ae2dff,
-    #372264ff,
-    #cc1d88ff,
-    #00bbf9ff
-  );
-  --gradient-bottom: linear-gradient(
-    180deg,
-    #8b56feff,
-    #f6ae2dff,
-    #372264ff,
-    #cc1d88ff,
-    #00bbf9ff
-  );
-  --gradient-left: linear-gradient(
-    270deg,
-    #8b56feff,
-    #f6ae2dff,
-    #372264ff,
-    #cc1d88ff,
-    #00bbf9ff
-  );
-  --gradient-top-right: linear-gradient(
-    45deg,
-    #8b56feff,
-    #f6ae2dff,
-    #372264ff,
-    #cc1d88ff,
-    #00bbf9ff
-  );
-  --gradient-bottom-right: linear-gradient(
-    135deg,
-    #8b56feff,
-    #f6ae2dff,
-    #372264ff,
-    #cc1d88ff,
-    #00bbf9ff
-  );
-  --gradient-top-left: linear-gradient(
-    225deg,
-    #8b56feff,
-    #f6ae2dff,
-    #372264ff,
-    #cc1d88ff,
-    #00bbf9ff
-  );
-  --gradient-bottom-left: linear-gradient(
-    315deg,
-    #8b56feff,
-    #f6ae2dff,
-    #372264ff,
-    #cc1d88ff,
-    #00bbf9ff
-  );
-  --gradient-radial: radial-gradient(
-    #8b56feff,
-    #f6ae2dff,
-    #372264ff,
-    #cc1d88ff,
-    #00bbf9ff
-  );
-}
-
-body {
-  font-family: "Anta", sans-serif;
-  background-image: url(/images/neon-fondo.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-
 main {
   color: #f6ae2dff;
 }
 
 form {
-  background: transparent;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.22),
+    1px 0px 0px 0px rgba(0, 0, 0, 0.22), 1px 2px 0px 0px rgba(0, 0, 0, 0.22),
+    2px 1px 0px 0px rgba(0, 0, 0, 0.22), 2px 3px 0px 0px rgba(0, 0, 0, 0.22),
+    3px 2px 0px 0px rgba(0, 0, 0, 0.22), 3px 4px 0px 0px rgba(0, 0, 0, 0.22),
+    4px 3px 0px 0px rgba(0, 0, 0, 0.22), 4px 5px 0px 0px rgba(0, 0, 0, 0.22),
+    5px 4px 0px 0px rgba(0, 0, 0, 0.22), 5px 6px 0px 0px rgba(0, 0, 0, 0.22),
+    6px 5px 0px 0px rgba(0, 0, 0, 0.22), 6px 7px 0px 0px rgba(0, 0, 0, 0.22),
+    7px 6px 0px 0px rgba(0, 0, 0, 0.22), 7px 8px 0px 0px rgba(0, 0, 0, 0.22),
+    8px 7px 0px 0px rgba(0, 0, 0, 0.22);
+}
+
+input,
+select {
+  opacity: 0.9;
+}
+
+@media (width <= 576px) {
+  form button {
+    width: 100%;
+  }
 }
