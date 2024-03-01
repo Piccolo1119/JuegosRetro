@@ -1,0 +1,30 @@
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background: transparent;
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+    #ff2d95 0px 0px 20px, #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px,
+    #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px;
+  color: #fff;
+  font-size: 2rem;
+  display: none;
+}
+
+.carousel:hover .carousel-control-next-icon,
+.carousel:hover .carousel-control-prev-icon {
+  display: block;
+}
+
+.carousel {
+  box-shadow: rgba(255, 45, 149, 0.25) 0px 54px 55px,
+    rgba(255, 45, 149, 0.25) 0px -12px 30px,
+    rgba(255, 45, 149, 0.25) 0px 4px 6px, rgba(255, 45, 149, 0.25) 0px 12px 13px,
+    rgba(255, 45, 149, 0.25) 0px -3px 5px;
+  border: 3px solid black;
+}
+
+.carousel-caption {
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+    #ff2d95 0px 0px 20px, #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px,
+    #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px;
+  color: #fff;
+}

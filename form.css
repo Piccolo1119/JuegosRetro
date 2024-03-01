@@ -24,4 +24,7 @@ select {
   form button {
     width: 100%;
   }
+  form button:hover {
+    scale: 1.05;
+  }
 }
