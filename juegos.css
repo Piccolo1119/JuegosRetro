@@ -33,6 +33,7 @@
 
 .btn {
     background-color: var(--russian-violet);
+    
 }
 
 .btn:hover {
@@ -62,7 +63,7 @@
       -moz-box-shadow: 3px 3px 5px #000;
       box-shadow: 3px 3px 5px #000;
       -webkit-backface-visibility: hidden;
-      filter: brightness(1.5);
+      filter: brightness(1.2);
       cursor: pointer;
     }
 }
@@ -83,4 +84,5 @@
     display: block; /* Mostrar al hacer hover en el contenedor */
     opacity: 1; /* Hacer visible con opacidad 1 */
 }
+
 

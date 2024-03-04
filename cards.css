@@ -1,0 +1,110 @@
+:root {
+    /* SCSS RGB */
+   --medium-slate-blue: rgba(139, 86, 254, 1);
+   --hunyadi-yellow: rgba(246, 174, 45, 1);
+   --russian-violet: rgba(55, 34, 100, 1);
+   --red-violet: rgba(204, 29, 136, 1);
+   --deep-sky-blue: rgba(0, 187, 249, 1);
+   
+   /* SCSS Gradient  */
+   --gradient-top: linear-gradient(0deg, #8b56feff, #f6ae2dff, #372264ff, #cc1d88ff, #00bbf9ff);
+   --gradient-right: linear-gradient(90deg, #8b56feff, #f6ae2dff, #372264ff, #cc1d88ff, #00bbf9ff);
+   --gradient-bottom: linear-gradient(180deg, #8b56feff, #f6ae2dff, #372264ff, #cc1d88ff, #00bbf9ff);
+   --gradient-left: linear-gradient(270deg, #8b56feff, #f6ae2dff, #372264ff, #cc1d88ff, #00bbf9ff);
+   --gradient-top-right: linear-gradient(45deg, #8b56feff, #f6ae2dff, #372264ff, #cc1d88ff, #00bbf9ff);
+   --gradient-bottom-right: linear-gradient(135deg, #8b56feff, #f6ae2dff, #372264ff, #cc1d88ff, #00bbf9ff);
+   --gradient-top-left: linear-gradient(225deg, #8b56feff, #f6ae2dff, #372264ff, #cc1d88ff, #00bbf9ff);
+   --gradient-bottom-left: linear-gradient(315deg, #8b56feff, #f6ae2dff, #372264ff, #cc1d88ff, #00bbf9ff);
+   --gradient-radial: radial-gradient(#8b56feff, #f6ae2dff, #372264ff, #cc1d88ff, #00bbf9ff);   
+   }
+   
+   
+   body {
+       font-family: "Anta", sans-serif;
+       font-weight: 400;
+       font-style: normal;
+       font-size: 3rem;
+       background-image: url(/images/neon-fondo.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       background-attachment: fixed;
+   
+}
+
+
+.cartas-dinamicas {
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    display: grid;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: rgba(255, 221, 0, 0.25) 0px 54px 55px,
+            rgba(255, 221, 0, 0.25) 0px -12px 30px,
+            rgba(255, 221, 0, 0.25) 0px 4px 6px,
+            rgba(255, 221, 0, 0.25) 0px 12px 13px,
+            rgba(255, 221, 0, 0.25) 0px -3px 5px;
+
+    color: white;
+    
+}
+
+/* .boton-carta {
+    background-color: var(--russian-violet);
+    color: var(--deep-sky-blue)
+}
+
+.boton-carta:hover {
+    background-color: var(--medium-slate-blue);
+} */
+
+/*** ESTILOS BOTÓN SLIDE RIGHT ***/
+.ov-btn-slide-right {
+    /* color de fondo */
+    background: var(--russian-violet);
+    font-weight: bold; /* color de fuente */
+    border: 2px solid var(--deep-sky-blue); /* tamaño y color de borde */
+    padding: 10px 15px;
+    border-radius: 10px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+  }
+
+  .ov-btn-slide-right:hover {
+    color: #fff; /* color de fuente hover */
+  }
+  .ov-btn-slide-right::after {
+    content: "";
+    background: var(--gradient-bottom-left);  /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 100%;
+    right: -100%;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
+  .ov-btn-slide-right:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
+
+
+  .tuclase {
+    text-align: left; 
+    font-family: Arial; 
+    font-size: 30px; 
+    color: rgba(204, 29, 136, 1); /* Red-violet */
+    text-shadow: 0px 0px 15px rgba(204, 29, 136, 0.7); /* Sombra red-violet con mayor desenfoque */
+    
+}
