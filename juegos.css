@@ -9,6 +9,7 @@
     6px 5px 0px 0px rgba(0, 0, 0, 0.22), 6px 7px 0px 0px rgba(0, 0, 0, 0.22),
     7px 6px 0px 0px rgba(0, 0, 0, 0.22), 7px 8px 0px 0px rgba(0, 0, 0, 0.22),
     8px 7px 0px 0px rgba(0, 0, 0, 0.22);
+    gap: 10px;
 }
 
 :root {
@@ -74,7 +75,7 @@
     width: 150px;
     bottom: 10px;
     left: 50%;
-    transform: translatey(60px) translateX(-50%);
+    transform: translatey(50px) translateX(-50%);
     z-index: 1;
     color: var(--deep-sky-blue)
 }
