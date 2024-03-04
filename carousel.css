@@ -28,6 +28,7 @@
 }
 
 .glitch {
+  color: #fff;
   font-size: 5rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -39,6 +40,8 @@
 
 .glitch span {
   position: absolute;
+  top: 0;
+  left: 0;
   z-index: -1;
 }
 
