@@ -4,7 +4,7 @@
 
 ## Built with 🛠️
 
-![Bootstrap Logo](https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg)  
+![Bootstrap Logo](https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg | width=100)
 
 This project is built using the **Bootstrap** framework to create a responsive, mobile-first layout.
 
@@ -20,4 +20,5 @@ This project is built using the **Bootstrap** framework to create a responsive, 
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/JuegosRetro.git
+
 
